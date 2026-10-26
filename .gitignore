@@ -1,0 +1,19 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+# données locales / runtime
+chroma_gemhunter/
+reports/*
+!reports/build_dashboard.py
+!reports/.gitkeep
+*.bak*
+*.log
